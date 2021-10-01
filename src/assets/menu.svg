@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121" height="105" viewBox="0 0 121 105">
+  <defs>
+    <filter id="shadow_" x="12" y="12" width="109" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#b8b9be"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="light" x="0" y="0" width="109" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="shadow_2" x="12" y="35" width="101" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-3"/>
+      <feFlood flood-color="#b8b9be"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="light-2" x="0" y="23" width="101" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-4"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="shadow_3" x="12" y="59" width="89" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-5"/>
+      <feFlood flood-color="#b8b9be"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="light-3" x="0" y="47" width="89" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="-6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-6"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(24 24)">
+    <g id="up">
+      <g transform="matrix(1, 0, 0, 1, -24, -24)" filter="url(#shadow_)">
+        <rect id="shadow_4" data-name="shadow " width="73" height="10" rx="4" transform="translate(24 24)" fill="#e6e7ee"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -24, -24)" filter="url(#light)">
+        <rect id="light-4" data-name="light" width="73" height="10" rx="4" transform="translate(24 24)" fill="#e6e7ee"/>
+      </g>
+      <g id="base" fill="#e6e7ee" stroke="#d1d9e6" stroke-width="1">
+        <rect width="73" height="10" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="72" height="9" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <g id="up-2" data-name="up" transform="translate(0 23.325)">
+      <g transform="matrix(1, 0, 0, 1, -24, -47.33)" filter="url(#shadow_2)">
+        <rect id="shadow_5" data-name="shadow " width="65" height="10" rx="4" transform="translate(24 47)" fill="#e6e7ee"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -24, -47.33)" filter="url(#light-2)">
+        <rect id="light-5" data-name="light" width="65" height="10" rx="4" transform="translate(24 47)" fill="#e6e7ee"/>
+      </g>
+      <g id="base-2" data-name="base" transform="translate(0 -0.325)" fill="#e6e7ee" stroke="#d1d9e6" stroke-width="1">
+        <rect width="65" height="10" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="64" height="9" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <g id="up-3" data-name="up" transform="translate(0 46.65)">
+      <g transform="matrix(1, 0, 0, 1, -24, -70.65)" filter="url(#shadow_3)">
+        <rect id="shadow_6" data-name="shadow " width="53" height="10" rx="4" transform="translate(24 71)" fill="#e6e7ee"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -24, -70.65)" filter="url(#light-3)">
+        <rect id="light-6" data-name="light" width="53" height="10" rx="4" transform="translate(24 71)" fill="#e6e7ee"/>
+      </g>
+      <g id="base-3" data-name="base" transform="translate(0 0.35)" fill="#e6e7ee" stroke="#d1d9e6" stroke-width="1">
+        <rect width="53" height="10" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="52" height="9" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_2091" data-name="Rectangle 2091" width="73" height="10" rx="4" fill="#18a3b8"/>
+    <rect id="Rectangle_2092" data-name="Rectangle 2092" width="65" height="10" rx="4" transform="translate(0 23)" fill="#18a3b8"/>
+    <rect id="Rectangle_2093" data-name="Rectangle 2093" width="53" height="10" rx="4" transform="translate(0 47)" fill="#18a3b8"/>
+  </g>
+</svg>
